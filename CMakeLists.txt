@@ -59,7 +59,9 @@ IF(OpenCV_FOUND)
   SET(PROJECT_CV_CREATED_FLAG "YES")  
 ENDIF()
 
-
+# Add JNI
+find_package(JNI REQUIRED)
+include_directories(${JNI_INCLUDE_DIRS})
  
 # ----------------------------------------------------------------------------
 #   PROJECT CONFIGURATION
