@@ -6,6 +6,8 @@
 #include <sys/timeb.h>
 #include "raspicam.h"
 
+#include <opencv2/core/core.hpp>
+
 using namespace std;
 
 //timer functions
